@@ -1,0 +1,1 @@
+ curl -X POST http://localhost:8080/api/prompt/generate-proposal   -H "Content-Type: application/json"   -d @proposal-request.json
