@@ -14,6 +14,14 @@ java {
 	}
 }
 
+bootJar {
+  archiveFileName = 'proposalapp.jar'
+}
+
+jar {
+  enabled = false // don’t create the -plain.jar
+}
+
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
