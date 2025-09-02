@@ -1,0 +1,534 @@
+{
+  "rfp_data": {
+    "rfp_id": "RFP-2025-CLOUD-001",
+    "title": "Enterprise Cloud Migration and Modernization Services",
+    "issuing_organization": "Global Financial Corp",
+    "due_date": "2025-10-15",
+    "contract_value": "$3,500,000",
+    "contract_duration": "24 months",
+    "extracted_requirements": {
+      "mandatory_requirements": [
+        {
+          "req_id": "MR-001",
+          "category": "technical",
+          "description": "Migrate 500+ applications to Azure cloud",
+          "required_skills": ["Azure Solutions Architect", "Azure DevOps", "Cloud Migration"],
+          "required_certifications": ["AZ-305", "AZ-400"],
+          "min_years_experience": 5
+        },
+        {
+          "req_id": "MR-002",
+          "category": "security",
+          "description": "Implement zero-trust security architecture",
+          "required_skills": ["Cloud Security", "Zero Trust Architecture", "Azure Security"],
+          "required_certifications": ["CISSP", "Azure Security Engineer AZ-500"],
+          "min_years_experience": 3
+        },
+        {
+          "req_id": "MR-003",
+          "category": "compliance",
+          "description": "Ensure SOC 2 and ISO 27001 compliance",
+          "required_skills": ["Compliance Management", "Audit Preparation"],
+          "required_certifications": ["CISA", "ISO 27001 Lead Auditor"],
+          "min_years_experience": 4
+        }
+      ],
+      "preferred_requirements": [
+        {
+          "req_id": "PR-001",
+          "description": "Experience with financial services industry",
+          "required_skills": ["Banking Systems", "Financial Regulations"],
+          "weight": 15
+        },
+        {
+          "req_id": "PR-002",
+          "description": "AI/ML implementation experience",
+          "required_skills": ["Azure ML", "Python", "MLOps"],
+          "required_certifications": ["Azure AI Engineer AI-102"],
+          "weight": 10
+        }
+      ],
+      "team_composition_requirements": {
+        "project_manager": 1,
+        "solution_architects": 2,
+        "cloud_engineers": 5,
+        "security_engineers": 2,
+        "data_engineers": 3
+      }
+    },
+    "evaluation_criteria": {
+      "technical_approach": 30,
+      "team_qualifications": 25,
+      "past_performance": 20,
+      "price": 15,
+      "innovation": 10
+    }
+  },
+  "employee_data": [
+    {
+      "employee_id": "EMP-001",
+      "name": "Sarah Johnson",
+      "title": "Senior Cloud Architect",
+      "years_experience": 8,
+      "clearance_level": "Secret",
+      "availability_percentage": 100,
+      "hourly_rate": 185,
+      "current_skills": [
+        {
+          "skill_name": "Azure Solutions Architecture",
+          "proficiency_level": "Expert",
+          "years_experience": 6
+        },
+        {
+          "skill_name": "AWS Architecture",
+          "proficiency_level": "Intermediate",
+          "years_experience": 3
+        },
+        {
+          "skill_name": "Cloud Migration",
+          "proficiency_level": "Expert",
+          "years_experience": 7
+        },
+        {
+          "skill_name": "DevOps",
+          "proficiency_level": "Advanced",
+          "years_experience": 5
+        }
+      ],
+      "current_certifications": [
+        {
+          "cert_name": "Azure Solutions Architect Expert",
+          "cert_id": "AZ-305",
+          "date_obtained": "2023-03-15",
+          "expiry_date": "2026-03-15",
+          "status": "Active"
+        },
+        {
+          "cert_name": "AWS Solutions Architect Professional",
+          "cert_id": "SAP-C02",
+          "date_obtained": "2022-08-20",
+          "expiry_date": "2025-08-20",
+          "status": "Active"
+        }
+      ],
+      "planned_certifications": [
+        {
+          "cert_name": "Azure DevOps Engineer Expert",
+          "cert_id": "AZ-400",
+          "planned_completion": "2025-11-30",
+          "training_status": "In Progress",
+          "completion_percentage": 60,
+          "training_cost": 2500
+        }
+      ],
+      "resume_highlights": [
+        "Led cloud migration for Fortune 500 financial services firm (300+ applications)",
+        "Designed multi-region disaster recovery architecture for global retail chain",
+        "Reduced infrastructure costs by 40% through cloud optimization"
+      ]
+    },
+    {
+      "employee_id": "EMP-002",
+      "name": "Michael Chen",
+      "title": "Security Engineer",
+      "years_experience": 5,
+      "clearance_level": "None",
+      "availability_percentage": 75,
+      "hourly_rate": 165,
+      "current_skills": [
+        {
+          "skill_name": "Cloud Security",
+          "proficiency_level": "Advanced",
+          "years_experience": 4
+        },
+        {
+          "skill_name": "Zero Trust Architecture",
+          "proficiency_level": "Intermediate",
+          "years_experience": 2
+        },
+        {
+          "skill_name": "Network Security",
+          "proficiency_level": "Expert",
+          "years_experience": 5
+        }
+      ],
+      "current_certifications": [
+        {
+          "cert_name": "CompTIA Security+",
+          "cert_id": "SY0-601",
+          "date_obtained": "2022-05-10",
+          "expiry_date": "2025-05-10",
+          "status": "Active"
+        }
+      ],
+      "planned_certifications": [
+        {
+          "cert_name": "CISSP",
+          "cert_id": "CISSP",
+          "planned_completion": "2025-12-15",
+          "training_status": "Not Started",
+          "completion_percentage": 0,
+          "training_cost": 5000
+        },
+        {
+          "cert_name": "Azure Security Engineer",
+          "cert_id": "AZ-500",
+          "planned_completion": "2025-10-01",
+          "training_status": "Enrolled",
+          "completion_percentage": 30,
+          "training_cost": 3000
+        }
+      ],
+      "resume_highlights": [
+        "Implemented zero-trust architecture for healthcare provider",
+        "Managed security operations center for 50+ clients",
+        "Achieved 99.9% threat detection rate using AI-powered tools"
+      ]
+    },
+    {
+      "employee_id": "EMP-003",
+      "name": "Jennifer Martinez",
+      "title": "Data Engineer",
+      "years_experience": 6,
+      "clearance_level": "Secret",
+      "availability_percentage": 50,
+      "hourly_rate": 155,
+      "current_skills": [
+        {
+          "skill_name": "Azure Data Factory",
+          "proficiency_level": "Expert",
+          "years_experience": 4
+        },
+        {
+          "skill_name": "Python",
+          "proficiency_level": "Expert",
+          "years_experience": 6
+        },
+        {
+          "skill_name": "Machine Learning",
+          "proficiency_level": "Beginner",
+          "years_experience": 1
+        },
+        {
+          "skill_name": "SQL",
+          "proficiency_level": "Expert",
+          "years_experience": 6
+        }
+      ],
+      "current_certifications": [
+        {
+          "cert_name": "Azure Data Engineer Associate",
+          "cert_id": "DP-203",
+          "date_obtained": "2023-07-20",
+          "expiry_date": "2026-07-20",
+          "status": "Active"
+        }
+      ],
+      "planned_certifications": [
+        {
+          "cert_name": "Azure AI Engineer Associate",
+          "cert_id": "AI-102",
+          "planned_completion": "2026-01-30",
+          "training_status": "Planned",
+          "completion_percentage": 0,
+          "training_cost": 3500
+        }
+      ],
+      "resume_highlights": [
+        "Built real-time data pipeline processing 10TB daily",
+        "Migrated on-premise data warehouse to Azure Synapse",
+        "Developed predictive analytics model saving $2M annually"
+      ]
+    },
+    {
+      "employee_id": "EMP-004",
+      "name": "Robert Taylor",
+      "title": "Junior Cloud Engineer",
+      "years_experience": 2,
+      "clearance_level": "None",
+      "availability_percentage": 100,
+      "hourly_rate": 95,
+      "current_skills": [
+        {
+          "skill_name": "Azure Fundamentals",
+          "proficiency_level": "Intermediate",
+          "years_experience": 2
+        },
+        {
+          "skill_name": "PowerShell",
+          "proficiency_level": "Advanced",
+          "years_experience": 2
+        },
+        {
+          "skill_name": "Infrastructure as Code",
+          "proficiency_level": "Beginner",
+          "years_experience": 1
+        }
+      ],
+      "current_certifications": [
+        {
+          "cert_name": "Azure Fundamentals",
+          "cert_id": "AZ-900",
+          "date_obtained": "2023-01-15",
+          "expiry_date": null,
+          "status": "Active"
+        }
+      ],
+      "planned_certifications": [
+        {
+          "cert_name": "Azure Administrator Associate",
+          "cert_id": "AZ-104",
+          "planned_completion": "2025-09-30",
+          "training_status": "In Progress",
+          "completion_percentage": 75,
+          "training_cost": 2000
+        }
+      ],
+      "resume_highlights": [
+        "Automated deployment processes reducing deployment time by 60%",
+        "Supported migration of 50 applications to Azure",
+        "Maintained 99.95% uptime for cloud infrastructure"
+      ]
+    }
+  ],
+  "project_experience": [
+    {
+      "project_id": "PROJ-001",
+      "project_name": "National Bank Cloud Transformation",
+      "client": "National Bank Corp",
+      "industry": "Financial Services",
+      "contract_value": "$5,200,000",
+      "duration": "18 months",
+      "completion_date": "2024-06-30",
+      "success_metrics": {
+        "on_time": true,
+        "on_budget": true,
+        "client_satisfaction": 4.8,
+        "cost_savings_achieved": "$3.2M annually"
+      },
+      "team_members": ["EMP-001", "EMP-002", "EMP-003"],
+      "technologies_used": ["Azure", "DevOps", "Kubernetes", "Terraform"],
+      "key_achievements": [
+        "Migrated 400+ applications to Azure with zero downtime",
+        "Reduced infrastructure costs by 45%",
+        "Improved application performance by 60%",
+        "Achieved PCI-DSS compliance"
+      ],
+      "lessons_learned": [
+        "Early stakeholder engagement critical for financial sector",
+        "Phased migration approach reduces risk",
+        "Automated testing essential for large-scale migrations"
+      ],
+      "referenceable": true,
+      "reference_contact": {
+        "name": "John Smith",
+        "title": "CTO",
+        "email": "john.smith@nationalbank.com",
+        "phone": "555-0100"
+      }
+    },
+    {
+      "project_id": "PROJ-002",
+      "project_name": "Healthcare Provider Security Enhancement",
+      "client": "Regional Health System",
+      "industry": "Healthcare",
+      "contract_value": "$1,800,000",
+      "duration": "12 months",
+      "completion_date": "2024-03-15",
+      "success_metrics": {
+        "on_time": true,
+        "on_budget": false,
+        "budget_variance": "+5%",
+        "client_satisfaction": 4.6,
+        "security_incidents_reduced": "85%"
+      },
+      "team_members": ["EMP-002"],
+      "technologies_used": ["Azure Sentinel", "Zero Trust", "CrowdStrike"],
+      "key_achievements": [
+        "Implemented zero-trust security architecture",
+        "Achieved HIPAA compliance",
+        "Reduced security incidents by 85%",
+        "Deployed AI-powered threat detection"
+      ],
+      "referenceable": true
+    }
+  ],
+  "company_capabilities": {
+    "core_competencies": [
+      {
+        "capability": "Cloud Migration & Modernization",
+        "maturity_level": "Expert",
+        "years_experience": 12,
+        "successful_projects": 45,
+        "certified_staff": 28
+      },
+      {
+        "capability": "DevOps & Automation",
+        "maturity_level": "Advanced",
+        "years_experience": 8,
+        "successful_projects": 32,
+        "certified_staff": 18
+      },
+      {
+        "capability": "Cybersecurity",
+        "maturity_level": "Advanced",
+        "years_experience": 10,
+        "successful_projects": 38,
+        "certified_staff": 15
+      },
+      {
+        "capability": "Data & Analytics",
+        "maturity_level": "Intermediate",
+        "years_experience": 5,
+        "successful_projects": 12,
+        "certified_staff": 8
+      },
+      {
+        "capability": "AI/ML Solutions",
+        "maturity_level": "Emerging",
+        "years_experience": 2,
+        "successful_projects": 4,
+        "certified_staff": 3
+      }
+    ],
+    "industry_experience": [
+      {
+        "industry": "Financial Services",
+        "years": 10,
+        "projects": 22,
+        "certifications": ["PCI-DSS", "SOX Compliance"]
+      },
+      {
+        "industry": "Healthcare",
+        "years": 8,
+        "projects": 18,
+        "certifications": ["HIPAA", "HITRUST"]
+      },
+      {
+        "industry": "Government",
+        "years": 6,
+        "projects": 14,
+        "certifications": ["FedRAMP", "CMMC Level 2"]
+      }
+    ],
+    "partner_certifications": [
+      {
+        "partner": "Microsoft",
+        "level": "Gold Partner",
+        "competencies": ["Cloud Platform", "Data Analytics", "Security"]
+      },
+      {
+        "partner": "AWS",
+        "level": "Advanced Consulting Partner",
+        "competencies": ["Migration", "DevOps"]
+      }
+    ]
+  },
+  "skills_gap_analysis": {
+    "rfp_id": "RFP-2025-CLOUD-001",
+    "current_qualification_percentage": 72,
+    "missing_skills": [
+      {
+        "skill": "Azure DevOps Expert",
+        "required_count": 2,
+        "current_count": 0,
+        "impact_on_score": 8
+      },
+      {
+        "skill": "CISSP Certification",
+        "required_count": 2,
+        "current_count": 0,
+        "impact_on_score": 10
+      },
+      {
+        "skill": "ISO 27001 Lead Auditor",
+        "required_count": 1,
+        "current_count": 0,
+        "impact_on_score": 5
+      }
+    ],
+    "training_recommendations": [
+      {
+        "employee_id": "EMP-001",
+        "recommended_cert": "AZ-400",
+        "cost": 2500,
+        "timeline_weeks": 8,
+        "roi_improvement": 8
+      },
+      {
+        "employee_id": "EMP-002",
+        "recommended_cert": "CISSP",
+        "cost": 5000,
+        "timeline_weeks": 12,
+        "roi_improvement": 10
+      },
+      {
+        "employee_id": "EMP-002",
+        "recommended_cert": "AZ-500",
+        "cost": 3000,
+        "timeline_weeks": 6,
+        "roi_improvement": 7
+      }
+    ],
+    "what_if_scenarios": [
+      {
+        "scenario_name": "Quick Win",
+        "description": "Complete in-progress training only",
+        "investment": 5500,
+        "timeline_weeks": 8,
+        "new_qualification_percentage": 80,
+        "additional_rfps_qualified": 3,
+        "potential_revenue": "$2,100,000"
+      },
+      {
+        "scenario_name": "Strategic Investment",
+        "description": "All recommended training",
+        "investment": 13500,
+        "timeline_weeks": 12,
+        "new_qualification_percentage": 95,
+        "additional_rfps_qualified": 8,
+        "potential_revenue": "$6,500,000"
+      },
+      {
+        "scenario_name": "Full Qualification",
+        "description": "Training + 1 strategic hire",
+        "investment": 35000,
+        "timeline_weeks": 4,
+        "new_qualification_percentage": 100,
+        "additional_rfps_qualified": 12,
+        "potential_revenue": "$10,200,000"
+      }
+    ]
+  },
+  "proposal_output_template": {
+    "sections": [
+      {
+        "section": "Executive Summary",
+        "auto_generate": true,
+        "include_qualification_percentage": true
+      },
+      {
+        "section": "Technical Approach",
+        "auto_generate": true,
+        "map_to_requirements": true
+      },
+      {
+        "section": "Team Qualifications",
+        "include_resumes": true,
+        "include_certs": true,
+        "include_training_plan": true
+      },
+      {
+        "section": "Past Performance",
+        "max_case_studies": 3,
+        "prioritize_by": "relevance"
+      },
+      {
+        "section": "Skills Development Plan",
+        "include_timeline": true,
+        "include_investment": true,
+        "show_improved_qualification": true
+      }
+    ]
+  }
+}
