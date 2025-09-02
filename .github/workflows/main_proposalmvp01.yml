@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: java-app
-          path: build/libs/*.jar
+          path: build/libs/./proposalapp.jar
           # If this is a multi-module build, use:
           # path: '**/build/libs/*.jar'
 
