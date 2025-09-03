@@ -1,6 +1,6 @@
 # proposaljava01
-Proposal Writer
-
+Proposal Writer - MVP
+ 
 - http://localhost:8080/api/proposal/sample-data
 
 
