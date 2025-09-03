@@ -17,7 +17,7 @@ public class GenproposalApplication {
 	@RestController
     public class HelloController {
 
-    @GetMapping("/")
+    @GetMapping("/demo")
     public String hello() {
         return "Hello, World!";
     }
