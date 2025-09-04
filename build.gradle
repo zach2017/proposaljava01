@@ -9,9 +9,11 @@ version = '0.0.1-SNAPSHOT'
 description = 'Generate Proposals'
 
 java {
-	toolchain {
-		languageVersion = JavaLanguageVersion.of(21)
-	}
+    toolchain {
+        def envJavaVersion = System.getenv('JAVA_VERSION')
+        def javaVersion = envJavaVersion ? Integer.parseInt(envJavaVersion) : 21
+        languageVersion = JavaLanguageVersion.of(javaVersion)
+    }
 }
 
 bootJar {
@@ -46,8 +48,12 @@ tasks.named('test') {
 }
 
 tasks.register("buildFrontend", Exec) {
-    workingDir = file("./frontend/") // path to your Vite project
-    commandLine "yarn", "build"
+    workingDir = file("frontend/") // path to your Vite project
+	  if (System.getProperty('os.name').toLowerCase().contains('windows')) {
+                commandLine "cmd", "/c", "yarn", "build"
+            } else {
+                commandLine "yarn", "build"
+            }
 }
 
 processResources {
